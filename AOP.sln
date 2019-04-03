@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daria.Aop", "Daria.Aop\Daria.Aop.csproj", "{05CFD5D9-DB0D-4F9F-A39C-2E24D170A389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daria.Aop.Weaving", "Daria.Aop.Weaving\Daria.Aop.Weaving.csproj", "{468843C1-C317-46C7-A7F8-E6A75DC22D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{6A523790-C814-423E-B58D-96BD5270CE5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daria.Core", "Daria.Core\Daria.Core.csproj", "{194D213D-64E5-4F85-B040-B33D4C1A628B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daria.Aop.Aspects.Common", "Daria.Aop.Aspects.Common\Daria.Aop.Aspects.Common.csproj", "{65702F19-C304-4A4C-A170-DE5690C3E234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weave", "Weave\Weave.csproj", "{AE43A993-D4E5-437C-96E7-DC1A6D9CCE4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{9F36D2FA-726F-4259-B1C0-991FDABAD42E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05CFD5D9-DB0D-4F9F-A39C-2E24D170A389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05CFD5D9-DB0D-4F9F-A39C-2E24D170A389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05CFD5D9-DB0D-4F9F-A39C-2E24D170A389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05CFD5D9-DB0D-4F9F-A39C-2E24D170A389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468843C1-C317-46C7-A7F8-E6A75DC22D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468843C1-C317-46C7-A7F8-E6A75DC22D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468843C1-C317-46C7-A7F8-E6A75DC22D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468843C1-C317-46C7-A7F8-E6A75DC22D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A523790-C814-423E-B58D-96BD5270CE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A523790-C814-423E-B58D-96BD5270CE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A523790-C814-423E-B58D-96BD5270CE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A523790-C814-423E-B58D-96BD5270CE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194D213D-64E5-4F85-B040-B33D4C1A628B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194D213D-64E5-4F85-B040-B33D4C1A628B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194D213D-64E5-4F85-B040-B33D4C1A628B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194D213D-64E5-4F85-B040-B33D4C1A628B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65702F19-C304-4A4C-A170-DE5690C3E234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65702F19-C304-4A4C-A170-DE5690C3E234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65702F19-C304-4A4C-A170-DE5690C3E234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65702F19-C304-4A4C-A170-DE5690C3E234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE43A993-D4E5-437C-96E7-DC1A6D9CCE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE43A993-D4E5-437C-96E7-DC1A6D9CCE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE43A993-D4E5-437C-96E7-DC1A6D9CCE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE43A993-D4E5-437C-96E7-DC1A6D9CCE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F36D2FA-726F-4259-B1C0-991FDABAD42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F36D2FA-726F-4259-B1C0-991FDABAD42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F36D2FA-726F-4259-B1C0-991FDABAD42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F36D2FA-726F-4259-B1C0-991FDABAD42E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

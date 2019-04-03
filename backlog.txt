@@ -1,0 +1,17 @@
+To do's:
+
+- Separate out method-level and aspect-level injection
+- Enable injecting aspects from other assemblies
+- Add aspect priority support
+- Method interception
+- Property interception
+- Caching
+- Cache aspects for better performance
+- Create and use a serializable MethodBase alternative
+- Argument validation
+- Return value validation
+- Retry
+- Async method support
+- Iterator support
+- Swap out calls to external methods
+

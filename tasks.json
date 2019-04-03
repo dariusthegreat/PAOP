@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Separate out method-level and aspect-level injection",
+        "done": false
+    },
+    {
+        "title": "\nEnable injecting aspects from other assemblies",
+        "done": false
+    },
+    {
+        "title": "\nAdd aspect priority support",
+        "done": false
+    },
+    {
+        "title": "\nMethod interception",
+        "done": false
+    },
+    {
+        "title": "\nProperty interception",
+        "done": false
+    },
+    {
+        "title": "\nCaching",
+        "done": false
+    },
+    {
+        "title": "\nCache aspects for better performance",
+        "done": false
+    },
+    {
+        "title": "\nCreate and use a serializable MethodBase alternative",
+        "done": false
+    },
+    {
+        "title": "\nArgument validation",
+        "done": false
+    },
+    {
+        "title": "\nReturn value validation",
+        "done": false
+    },
+    {
+        "title": "\nRetry",
+        "done": false
+    },
+    {
+        "title": "\nAsync method support",
+        "done": false
+    },
+    {
+        "title": "\nIterator support",
+        "done": false
+    },
+    {
+        "title": "\nSwap out calls to external methods",
+        "done": false
+    }
+]

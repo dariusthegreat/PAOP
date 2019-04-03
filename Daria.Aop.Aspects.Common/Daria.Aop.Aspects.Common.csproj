@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Daria.Aop\Daria.Aop.csproj" />
+      <ProjectReference Include="..\Daria.Core\Daria.Core.csproj" />
+    </ItemGroup>
+
+</Project>

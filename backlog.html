@@ -1,0 +1,59 @@
+<html>
+	<head>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+				integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  				crossorigin="anonymous"></script>
+		
+		
+		<style>
+			
+		</style>
+		
+	</head>
+	<body>
+		<h1>To do's</h1>
+		<ul id='tasks-list'></ul>
+		
+		<script>
+			
+			
+			$(document).ready(async function(){
+				var tasks = await getTasks();
+				
+				tasks.map(createTaskItemElement).forEach(x => $('#tasks-list').append(x));
+				
+				
+			});
+			
+			
+			function createTaskItemElement(x)
+			{
+				return $('<li/>')
+					.append($('<span></span>').text(x.done ? '✓' : '❌'))
+					.append($('<span></span>>').text(x.title));		
+			}
+
+async function getTasks()
+{
+	return `Separate out method-level and aspect-level injection
+	Enable injecting aspects from other assemblies
+	Add aspect priority support
+	Method interception
+	Property interception
+	Caching
+	Cache aspects for better performance
+	Create and use a serializable MethodBase alternative
+	Argument validation
+	Return value validation
+	Retry
+	Async method support
+	Iterator support
+	Swap out calls to external methods`
+		.split(/$/m)
+		.map(x => ({ task: x, done: false}));
+}
+		
+		</script>
+	</body>
+</html>
